@@ -3,7 +3,7 @@ exports.empty = function() {
 }
 
 exports._delete = function(value, set) {
-  set.delete(value)
+  return set.delete(value)
 }
 
 exports._add = function(value, set) {
